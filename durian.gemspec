@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{A BDD testing library to use with cucumber}
   spec.description   = %q{Durian is a UI testing framework for Behavior Driven Testing.It's built using ruby and selenium.}
-  spec.homepage      = "git@github.com:tswbyaj/durian.git"
+  spec.homepage      = "https://github.com/tswbyaj/durian.git"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
