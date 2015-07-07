@@ -1,6 +1,7 @@
 require "durian/version"
 require "selenium-webdriver"
 require "rubygems"
+require "durian/page"
 
 module Durian
     class << self
