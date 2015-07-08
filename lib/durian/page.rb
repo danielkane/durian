@@ -1,7 +1,9 @@
+require 'common'
+
 module Durian
   class Page
-    # The url(can be relative) of the page
-    attr_accessor :location
+    include Common
+    inheritable_attributes :location
     alias_method :located_at, :location=
     
     # Allows Page Object class's to inherit from Durian::Page class 
@@ -15,8 +17,8 @@ module Durian
     end
       
     def for(name)
-      class_name = "#{name}_page".gsub(' ', '_').classify
-      class_name.constantize rescue raise "Could not find page #{class_name}"
+      page = "#{name}Page".classify
+      page.constantize rescue raise "Could not find page #{page}"
     end   
   end
 end
