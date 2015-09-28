@@ -1,7 +1,7 @@
 # Durian
 
 Durian is being developed with the goal of making automated testing more intuitive.
-Currently it is being written in ruby and selenium,
+Currently it is being written in ruby and selenium. 
 
 ## Installation
 
